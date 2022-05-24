@@ -1,0 +1,4 @@
+icon: https://te.legra.ph/file/71731fff1dbc7465bd6ba.jpg
+
+deploy:
+    - okteto stack deploy --build -f docker-compose.yml
